@@ -7,6 +7,7 @@ The requirements for this assignment was selcting truss geometry, calualtions su
 The main design requirements were:
 
 - Design a simple planar truss.
+
 ![Truss Sketch](Screenshot%202026-08-27%20164238.png)
 - 
 - Support the specified loads at joints C and D.
