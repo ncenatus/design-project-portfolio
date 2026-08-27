@@ -7,7 +7,8 @@ The requirements for this assignment was selcting truss geometry, calualtions su
 The main design requirements were:
 
 - Design a simple planar truss.
-
+![Initial Truss Design](<img width="214" height="176" alt="Screenshot 2026-08-27 164238" src="https://github.com/user-attachments/assets/dfe76277-3ec9-490c-a551-1d19ee58fad8" />
+ )
 - 
 - Support the specified loads at joints C and D.
 - Use ASTM A500 Grade C steel for the truss.
