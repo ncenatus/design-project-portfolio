@@ -28,12 +28,25 @@ $$ A_x=0 $$ $$ B_y=8.33\text{ kN} $$ $$ A_y=-8.33\text{ kN} $$
 
 The negative sign for \(A_y\) means that its actual direction is opposite to the direction I initially assumed on my free-body diagram.
 
+INTERNAL FORCE MEMBERS
+
+
 
 ![Truss Sketch](JOINTa,b.png)
 
 ![Truss Sketch](JOINT-E.png)
 
+After finding the support reactions, I used the method OF JOINTS to find all the others forces in each memeber by using \(\Sigma F_x=0\) and \(\Sigma F_y=0\) to solve the forces directly. I assumed unknown member forces were in tension initially, and a negative result indicated that the member was actually in compression.
 
+At Joint B, I used the \(36.87^\circ\) angle and the previously calculated reaction force to solve for members BC and BE. My calculations gave:
+
+$$ F_{BC}=-13.88\text{ kN} $$
+
+so BC is in compression, and
+
+$$ F_{BE}=11.11\text{ kN} $$
+
+so BE is in tension.
 
 
 -
