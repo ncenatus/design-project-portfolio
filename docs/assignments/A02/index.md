@@ -48,7 +48,11 @@ $$ F_{BE}=11.11\text{ kN} $$
 
 so BE is in tension.
 
+Using the horizontal and vertical equilibrium equations, I obtained a member-force magnitude of approximately
 
+$$ 20.03\text{ kN}. $$
+
+This was the largest internal force in my truss, so I used \(20.03\text{ kN}\) as the critical load when sizing the truss members.
 -
 - 
 
