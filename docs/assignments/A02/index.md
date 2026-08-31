@@ -51,6 +51,7 @@ After solving all the internal members, I found out that  $$ 20.03\text{ kN}. $$
 
 Truss Member Cross-Sectional Area
 
+![Truss Sketch](AREA.png)
 
 
 -
