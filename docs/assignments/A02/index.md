@@ -9,8 +9,10 @@ The requirements for this assignment was selcting truss geometry, calualtions su
 - Initial Truss drawing 
 
 ![Truss Sketch](Screenshot%202026-08-27%20164238.png)
-- Intial Truss Drawing with Dimensions
-![Truss Sketch](Screenshot%202026-08-27%20164238.png)
+-
+-  Intial Truss Drawing with Dimensions
+
+![Truss Sketch]()
 
 
 
