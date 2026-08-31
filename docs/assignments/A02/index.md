@@ -18,6 +18,7 @@ The truss has a total horizontal distance of 1.2 m, divided into three 0.4 m sec
 
 -Support Reactions and INTERNAL FORCE MEMBERS 
 
+![Truss Sketch](SUPPORT-REACTION.png)
 
 IN order for me to find the individual truss memeber i first find Ax and Ay which is the external forces at the support. After finding thr external forces I drew a free-body diagram of the entire truss and used the equilibrium equations and the moments equations and setting them equal to zero to find them. 
 
