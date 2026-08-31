@@ -55,16 +55,9 @@ Truss Member Cross-Sectional Area
 
 After determining all of the internal forces, I needed to find a cross-sectional area that would prevent the truss members stress from going to or pass the yield strength. The yield is the point where the materaisl will no longer go back to original shape after it had been stretch or defrom. we Dont want that in ourtruss desgin so I used the largest internal force of \(20.03\text{ kN}\). I sue the largest force member because designing the beam using the largest force member will ensure the otehr smaller forced members will be safe. 
 
-As show the using the factor of safety and the allowable stress the minimum area for the truss is Solving symbolically for minimum area gives Amin=σyNFmax
+As show the using the factor of safety and the allowable stress the minimum area for the truss is Solving symbolically for minimum area gives 
 	​
 
-	​
-
-	​
-
-.
-
--
 - 
 
 ## Decide
