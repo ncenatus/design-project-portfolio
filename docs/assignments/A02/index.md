@@ -16,19 +16,22 @@ The requirements for this assignment was selcting truss geometry, calualtions su
 
 The truss has a total horizontal distance of 1.2 m, divided into three 0.4 m sections, with a vertical height of 0.3 m. From this geometry, the outside diagonal members form an angle of approximately \(36.87^\circ\). The applied loads at C and D each have a magnitude of 25 kN but act in opposite vertical directions.
 
--Support Reactions
+-Support Reactions and INTERNAL FORCE MEMBERS 
 
-![Truss Sketch](JOINTa,b.png)
 
-![Truss Sketch](JOINT-E.png)
-
-Before finding the forces inside the individual truss members, I first needed to determine the external reaction forces at the supports. I drew a free-body diagram of the entire truss and used the equilibrium equations \(\Sigma F_x=0\), \(\Sigma F_y=0\), and \(\Sigma M=0\). Taking moments allowed me to solve for the vertical reactions, and because there were no external horizontal loads, the horizontal reaction was zero.
+IN order for me to find the individual truss memeber i first find Ax and Ay which is the external forces at the support. After finding thr external forces I drew a free-body diagram of the entire truss and used the equilibrium equations and the moments equations and setting them equal to zero to find them. 
 
 From my calculations, I obtained:
 
 $$ A_x=0 $$ $$ B_y=8.33\text{ kN} $$ $$ A_y=-8.33\text{ kN} $$
 
 The negative sign for \(A_y\) means that its actual direction is opposite to the direction I initially assumed on my free-body diagram.
+
+
+![Truss Sketch](JOINTa,b.png)
+
+![Truss Sketch](JOINT-E.png)
+
 
 
 
