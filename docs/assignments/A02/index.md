@@ -19,7 +19,8 @@ The truss has a total horizontal distance of 1.2 m, divided into three 0.4 m sec
 
 ![Truss Sketch](JOINTa,b.png)
 
-![Truss Sketch](jointE.png)
+![Truss Sketch](joint E.png)
+
 
 
 
