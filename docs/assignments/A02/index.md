@@ -47,9 +47,9 @@ so BC is in compression, and
 $$ F_{BE}=11.11\text{ kN} $$
 
 so BE is in tension.
-After solving all the internal members, I found out that  $$ 20.03\text{ kN}. $$
+After solving all the internal members, I found out that  $$ 20.03\text{ kN}. $$. This was the largest internal force in my truss, so this will be used  \(20.03\text{ kN}\) as the critical load when sizing the truss members.
 
-This was the largest internal force in my truss, so this will be used  \(20.03\text{ kN}\) as the critical load when sizing the truss members.
+
 -
 - 
 
