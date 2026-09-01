@@ -77,7 +77,7 @@ I started my 3D model in Creo by creating a 2D sketch of the truss using the dim
 
 After creating the centerline geometry, I used the Offset tool in Creo to create the sides of each truss member. I offset the centerline by approximately 7.5 mm on each side, giving each member a total width of approximately:
 
-$$ w=7.5+7.5=15\text{ mm} $$ $$ \boxed{w=0.015\text{ m}} $$
+$$ w=7.5+7.5=15
 
 ![Truss Sketch](O.png)
 
@@ -111,7 +111,7 @@ Therefore, I extruded the completed truss profile to a depth of 0.015 m (15 mm).
 
 
 
-$$ A=(15)(15)=\boxed{225\text{ mm}^2} $$
+
 
 This cross-sectional area was selected to satisfy the required member area while keeping the truss lightweight.
 
