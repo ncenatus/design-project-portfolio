@@ -14,6 +14,21 @@
 
 ![A3](D.png)
 
+![A3](F.png)
+
+![A3](G.png)
+
+![A3](H.png)
+
+![A3](I.png)
+
+![A3](J.png)
+
+
+
+
+
+
 
 
 ## Decide
