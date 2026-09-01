@@ -57,8 +57,20 @@ After determining all of the internal forces, I needed to find a cross-sectional
 
 As show the using the factor of safety and the allowable stress the minimum area for the truss is Solving symbolically for minimum area gives 
 	​
+Single-Shear Pin Design
 
+
+![Truss Sketch](PIN.png)
 - 
+The next part of my design was determining the required size of the pins connecting the truss members. I chose to analyze the pins as single-shear connections. I used the maximum force of \(20.03\text{ kN}\) as the design shear force so that the selected pin size would be adequate for the most highly loaded connection.
+
+I converted \(20.03\text{ kN}\) to approximately \(4503\text{ lbf}\) and calculated
+
+Approximate Truss Weight
+
+
+	​
+
 
 ## Decide
 
