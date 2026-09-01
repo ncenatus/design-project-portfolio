@@ -38,16 +38,10 @@ INTERNAL FORCE MEMBERS
 
 After finding the support reactions, I used the method OF JOINTS to find all the others forces in each memeber by using \(\Sigma F_x=0\) and \(\Sigma F_y=0\) to solve the forces directly. I assumed unknown member forces were in tension initially, and a negative result indicated that the member was actually in compression.
 
-At Joint B, I used the \(36.87^\circ\) angle and the previously calculated reaction force to solve for members BC and BE. My calculations gave:
+At Joint B, I used the \(36.87^\circ\) angle and the previously calculated reaction force to solve for members BC and BE. My calculations gave: F=-13.88kN
 
-$$ F_{BC}=-13.88\text{ kN} $$
-
-so BC is in compression, and
-
-$$ F_{BE}=11.11\text{ kN} $$
-
-so BE is in tension.
-After solving all the internal members, I found out that  $$ 20.03\text{ kN}. $$. This was the largest internal force in my truss, so this will be used  \(20.03\text{ kN}\) as the critical load when sizing the truss members.
+so BC is in compression, and FBE=11.11kN, BE is in tension.
+After solving all the internal members, I found out that 20.03. This was the largest internal force in my truss, so this will be used 20.03 kN as the critical load when sizing the truss members.
 
 Truss Member Cross-Sectional Area
 
@@ -64,7 +58,7 @@ Single-Shear Pin Design
 - 
 The next part of my design was determining the required size of the pins connecting the truss members. I chose to analyze the pins as single-shear connections. I used the maximum force of \(20.03\text{ kN}\) as the design shear force so that the selected pin size would be adequate for the most highly loaded connection.
 
-I converted \(20.03\text{ kN}\) to approximately \(4503\text{ lbf}\) and calculated
+I converted 20.03kN to approximately 4503 lbf and calculated
 
 Approximate Truss Weight
 
