@@ -4,7 +4,7 @@
 
 
 ## Analyze
-![Truss Sketch](A.pdf)
+![A3](A.pdf)
 
 ## Decide
 
