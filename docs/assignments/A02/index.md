@@ -38,7 +38,7 @@ INTERNAL FORCE MEMBERS
 
 After finding the support reactions, I used the method OF JOINTS to find all the others forces in each memeber by using \(\Sigma F_x=0\) and \(\Sigma F_y=0\) to solve the forces directly. I assumed unknown member forces were in tension initially, and a negative result indicated that the member was actually in compression.
 
-At Joint B, I used the \(36.87^\circ\) angle and the previously calculated reaction force to solve for members BC and BE. My calculations gave: F=-13.88kN
+At Joint B, I used the 36.87 angle and the previously calculated reaction force to solve for members BC and BE. My calculations gave: F=-13.88kN
 
 so BC is in compression, and FBE=11.11kN, BE is in tension.
 After solving all the internal members, I found out that 20.03. This was the largest internal force in my truss, so this will be used 20.03 kN as the critical load when sizing the truss members.
@@ -79,21 +79,13 @@ I then connected and trimmed the offset lines at each joint to create one contin
 
 Truss Member Cross-Section
 
-From my previous stress calculations, I determined that the truss members required a cross-sectional area of approximately:
+From my previous stress calculations, I determined that the truss members required a cross-sectional area of approximately: A=225mm^2
 
-$$ \boxed{A=225\text{ mm}^2} $$
+Converting this to square meters: 0.000225 m^2
 
-Converting this to square meters:
+Since the width of each member in the sketch was: w=0.015 m
 
-$$ 225\text{ mm}^2 \left(\frac{1\text{ m}}{1000\text{ mm}}\right)^2 = \boxed{0.000225\text{ m}^2} $$
-
-Since the width of each member in the sketch was:
-
-$$ w=0.015\text{ m} $$
-
-I calculated the required extrusion thickness using:
-
-$$ A=wt $$
+I calculated the required extrusion thickness using:A=wt
 
 Solving for thickness:
 
@@ -111,29 +103,17 @@ This cross-sectional area was selected to satisfy the required member area while
 
 Pin Design
 
-The pins were modeled separately from the truss as cylindrical components. From my previous single-shear stress calculation, the required minimum cross-sectional area of each pin was:
+The pins were modeled separately from the truss as cylindrical components. From my previous single-shear stress calculation, the required minimum cross-sectional area of each pin was: {p min}=0.10595 in
 
-$$ \boxed{A_{p,\min}=0.10595\text{ in}^2} $$
+Since the pin has a circular cross section: A_p=pi d^2
 
-Since the pin has a circular cross section:
+Solving for the pin diameter:d= sqrt{\frac{4A_p}{\pi}} $$
 
-$$ A_p=\frac{\pi d^2}{4} $$
+Substituting the required area: d=\sqrt{\frac{4(0.10595)}{\pi}} $$ $$ d\approx\boxed{0.367\text{ in}} $$
 
-Solving for the pin diameter:
+Because the calculated value represents the minimum allowable diameter, I rounded the pin diameter up to a standard 3/8-inch diameter: \boxed{d=0.375\text{ in}} $$
 
-$$ d=\sqrt{\frac{4A_p}{\pi}} $$
-
-Substituting the required area:
-
-$$ d=\sqrt{\frac{4(0.10595)}{\pi}} $$ $$ d\approx\boxed{0.367\text{ in}} $$
-
-Because the calculated value represents the minimum allowable diameter, I rounded the pin diameter up to a standard 3/8-inch diameter:
-
-$$ \boxed{d=0.375\text{ in}} $$
-
-I then converted the diameter to meters so that the pin dimensions would be consistent with the units used in my Creo truss model:
-
-$$ 0.375\text{ in} \left(\frac{0.0254\text{ m}}{1\text{ in}}\right) = \boxed{0.009525\text{ m}} $$
+I then converted the diameter to meters so that the pin dimensions would be consistent with the units used in my Creo truss model: $$ 0.375\text{ in} \left(\frac{0.0254\text{ m}}{1\text{ in}}\right) = \boxed{0.009525\text{ m}} $$
 
 Therefore, each pin was modeled with a diameter of:
 
