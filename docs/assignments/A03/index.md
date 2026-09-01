@@ -8,9 +8,9 @@
 
 ![A3](PART.png)
 
-![A3](PARAMETER.png)
+![A3](PARAMETERS.png)
 
-![A3](MATERIAL.png)
+![A3](MATERIALS.png)
 
 
 ## Decide
