@@ -79,6 +79,8 @@ After creating the centerline geometry, I used the Offset tool in Creo to create
 
 $$ w=7.5+7.5=15\text{ mm} $$ $$ \boxed{w=0.015\text{ m}} $$
 
+![Truss Sketch](O.png)
+
 I then connected and trimmed the offset lines at each joint to create one continuous truss profile. This allowed the entire truss, excluding the pins, to be modeled as one part, as required by the assignment.
 
 Truss Member Cross-Section
@@ -104,6 +106,10 @@ Solving for thickness:
 $$ t=\frac{A}{w} $$ $$ t=\frac{0.000225}{0.015} $$ $$ \boxed{t=0.015\text{ m}} $$
 
 Therefore, I extruded the completed truss profile to a depth of 0.015 m (15 mm). This produces an approximately 15 mm × 15 mm cross section:
+
+![Truss Sketch](E.png)
+
+
 
 $$ A=(15)(15)=\boxed{225\text{ mm}^2} $$
 
