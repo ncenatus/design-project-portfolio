@@ -4,7 +4,7 @@
 
 
 ## Analyze
-![A3](A.pdf)
+![A3](A.png)
 
 ## Decide
 
