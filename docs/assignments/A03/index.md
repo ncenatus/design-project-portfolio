@@ -4,7 +4,7 @@
 
 
 ## Analyze
-
+![Truss Sketch](A.png)
 
 ## Decide
 
