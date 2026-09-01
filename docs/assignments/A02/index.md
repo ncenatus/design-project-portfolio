@@ -12,7 +12,7 @@ The requirements for this assignment was selcting truss geometry, calualtions su
 -
 -  Intial Truss Drawing with Dimensions
 
-![Truss Sketch](TRUSS-DIMENSIONS.png)
+![Truss Sketch](TRUSS_DIMENSIONS.png)
 
 The truss has a total horizontal distance of 1.2 m, divided into three 0.4 m sections, with a vertical height of 0.3 m. From this geometry, the outside diagonal members form an angle of approximately \(36.87^\circ\). The applied loads at C and D each have a magnitude of 25 kN but act in opposite vertical directions.
 
