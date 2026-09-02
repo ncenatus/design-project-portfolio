@@ -54,6 +54,8 @@ The 1.22% difference is small, so the two methods essentially agree. one reason 
 
 ### Pin-Hole Stress Concentration
 
+![A3](Z.png)
+according to the calculations shown above the design passes with a factor of safety of 5.56
 
 ## Step 4 – Lessons Learned
 ### Mistakes and Corrections
