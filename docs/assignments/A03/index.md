@@ -20,6 +20,7 @@ Then i assign the given material from the assigment which is aluminum. I then no
 After assignign the material, i click pn stimulate on creo, the nclick on displacement. then i select the left end of the bar, that will be the location where the bar is fixed. 
 
 ![A3](F.png)
+Then  i constraint all 3 translation because i dont want any movement in the x.y. and Z direction; the bar is suppose to be firmly attached to the wall support while the other end is where to force is applied. 
 
 ![A3](G.png)
 
