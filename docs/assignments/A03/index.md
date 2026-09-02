@@ -24,7 +24,7 @@ Then  i constraint all 3 translation because i dont want any movement in the x.y
 
 ![A3](G.png)
 
-Next i click FORCE/MOMENT under loads the ni click the opposite end othe bar. This the end where the 400 lbs force will be applied. 
+
 
 ![A3](H.png)
 
