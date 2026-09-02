@@ -49,41 +49,6 @@ Then i generate the VOn Mises stress map using the same step. The von Mises resu
 ### Hand Calculation Compared With FEA
 The hand calculation was designed to produce:
 
-[
-\delta_{\text{hand}}=0.00900\text{ in}
-]
-
-The Creo FEA produced:
-
-[
-\delta_{\text{FEA}}=0.00889\text{ in}
-]
-
-The absolute difference was:
-
-|0.00900-0.00889|
-]
-
-[
-\boxed{\text{Absolute difference}=0.00011\text{ in}}
-]
-
-Using the hand-calculated result as the reference, the percent difference was:
-
-\frac{
-|\delta_{\text{FEA}}-\delta_{\text{hand}}|
-}{
-\delta_{\text{hand}}
-}
-(100)
-]
-
-\frac{|0.00889-0.00900|}{0.00900}(100)
-]
-
-[
-\boxed{%\text{ difference}=1.22%}
-]
 
 ### Pin-Hole Stress Concentration
 
