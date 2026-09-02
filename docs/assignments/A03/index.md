@@ -5,7 +5,7 @@ The purpose for this assignemnt is to design a bar that has a circular cross-sec
 
 ## Analyze
 ![A3](A.png)
-
+The first thing i did was find the area as 0.19635 in^2.  Then i calculated the required bar length using the defromation equation. This calcualtion will be compare with the 
 ![A3](PART.png)
 
 ![A3](PARAMETERS.png)
