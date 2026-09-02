@@ -49,17 +49,20 @@ Then i generate the VOn Mises stress map using the same step. The von Mises resu
 ### Hand Calculation Compared With FEA
 ![A3](Y.png)
 
-The 1.22% difference is small, so the two methods essentially agree. 
+The 1.22% difference is small, so the two methods essentially agree. one reason for this diffefence is that Creo’s wrought-aluminum material used a slightly higher Young’s modulus of approximately 70–70.5 GPa. Other minor differences could have resulted from rounding the calculated length to 44.18 inches. I would place slightly more confidence in the FEA displacement because it used the actual material properties assigned inside Creo and the exact model geometry but that the given displacement is verifaction that what i did was good. 
 
 
 ### Pin-Hole Stress Concentration
 
+
 ## Step 4 – Lessons Learned
 ### Mistakes and Corrections
 
+ONe mistake that i almost made was not matching the units displayed on creo wwith the units from the assignment. Another mistake is the disrection of forces, because i did not know whether to force was point inward or ways from the bar. I lean that the force had to be away to accurately represent tension. I learned that I  had to place the constraints on the x, y , and Z directions for the left side of the bar which represented a rigid connection to a wall. Finally, I learned that the maximum value on a stress map is not always identical to the simple nominal stress. 
 
 
-### Actual Time Spent
+
+
 
 ## CAD File Download
 
