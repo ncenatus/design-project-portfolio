@@ -29,14 +29,32 @@ Next i click FORCE/MOMENT under loads the ni click the opposite end othe bar. Th
 ![A3](H.png)
 I run the analysis to generate the deflection map shown above. 
 
+
+### Deflection Map
 ![A3](I.png)
 
 according to the deflection map show above the maximum deflection is 0.00889 in which is the close to the value of .009 in that was given for th assignment. 
 
+### Von Mises Stress Map
 ![A3](J.png)
 
 Then i generate the VOn Mises stress map using the same step. The von Mises result is 2299.26
  
+### Safety-Factor Calculation
+
+
+## Step 3 – Design Reflection
+### Hand Calculation Compared With FEA
+### Pin-Hole Stress Concentration
+
+## Step 4 – Lessons Learned
+### Mistakes and Corrections
+
+
+
+### Actual Time Spent
+
+## CAD File Download
 
 
 
