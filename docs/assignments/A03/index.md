@@ -31,9 +31,12 @@ I run the analysis to generate the deflection map shown above.
 
 ![A3](I.png)
 
+according to the deflection map show above the maximum deflection is 0.00889 in which is the close to the value of .009 in that was given for th assignment. 
+
 ![A3](J.png)
 
-
+Then i generate the VOn Mises stress map using the same step. The von Mises result is 2299.26
+ 
 
 
 
