@@ -47,7 +47,9 @@ Then i generate the VOn Mises stress map using the same step. The von Mises resu
 
 ## Step 3 – Design Reflection
 ### Hand Calculation Compared With FEA
-The hand calculation was designed to produce:
+![A3](Y.png)
+
+The 1.22% difference is small, so the two methods essentially agree. 
 
 
 ### Pin-Hole Stress Concentration
