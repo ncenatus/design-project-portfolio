@@ -12,7 +12,8 @@ The purpose for this assignemnt is to design a bar that has a circular cross-sec
 Then i enter my parameter values on Creo, these are the values that was given for the assignemt along with the length calcualtion i got from step 1. 
 
 ![A3](MATERIALS.png)
- 
+
+Then i assign the given material from the assigment which is aluminum. I then notice the young's modulus is 70 GPA which i then converted to 10.22*10^6 Psi. Then i compare it with the range that ws given in the assingment 8.5*10^6 < 10.22*10^6 < 11.5*10^6, so it fall in in between it.
 
 ![A3](D.png)
 
