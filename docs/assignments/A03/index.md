@@ -17,6 +17,8 @@ Then i assign the given material from the assigment which is aluminum. I then no
 
 ![A3](D.png)
 
+After assignign the material, i click pn stimulate on creo, the nclick on displacement. then i select the left end of the bar, that will be the location where the bar is fixed. 
+
 ![A3](F.png)
 
 ![A3](G.png)
