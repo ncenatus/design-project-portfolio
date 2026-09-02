@@ -27,6 +27,7 @@ Then  i constraint all 3 translation because i dont want any movement in the x.y
 Next i click FORCE/MOMENT under loads the ni click the opposite end othe bar. This the end where the 400 lbs force will be applied. I then type 400 under force component in the x diection becaue the forcd is only applied in the x direction so i left the y and z blank. the n i change the units to lbf, then i click run so Creo can run it. 
 
 ![A3](H.png)
+I run the analysis to generate the deflection map shown above. 
 
 ![A3](I.png)
 
