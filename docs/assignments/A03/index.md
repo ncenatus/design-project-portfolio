@@ -48,6 +48,7 @@ Then i generate the VOn Mises stress map using the same step. The von Mises resu
 
 ## Step 3 – Design Reflection
 ### Hand Calculation Compared With FEA
+<img src="Y.png" width="400">
 ![A3](Y.png)
 
 The 1.22% difference is small, so the two methods essentially agree. one reason for this diffefence is that Creo’s wrought-aluminum material used a slightly higher Young’s modulus of approximately 70–70.5 GPa. Other minor differences could have resulted from rounding the calculated length to 44.18 inches. I would place slightly more confidence in the FEA displacement because it used the actual material properties assigned inside Creo and the exact model geometry but that the given displacement is verifaction that what i did was good. 
