@@ -16,7 +16,9 @@ The Sy is the tensile strength of ABS material which is 29.6 MPA.
 ![A3](A_2.png)
 FOr this i chose a L1 and L2 of 40 mm. The yield required a minimum thickness of 13.51 mm, while the deflection required 17.50 mm. I chose the biggest h value of 18.5 to be the h value for the CAD design because 18 it meets the deflection requirement and it won't add to much thickness to the material to make a more efficient design. 
 
+![A3](A_3.png)
 
+![A3](A_4.png)
 
 
 
