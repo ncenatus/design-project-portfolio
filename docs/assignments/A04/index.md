@@ -16,15 +16,17 @@ The Sy is the tensile strength of ABS material which is 29.6 MPA.
 ![A3](A_2.png)
 FOr this i chose a L1 and L2 of 40 mm. The yield required a minimum thickness of 13.51 mm, while the deflection required 17.50 mm. I chose the biggest h value of 18.5 to be the h value for the CAD design because 18 it meets the deflection requirement and it won't add to much thickness to the material to make a more efficient design. 
 
+## FEATURE 2
+
 ![A3](A_3.png)
 
 
 ![A3](A_4.png)
 Feature 2 was modeled as a cantilever beam fixed to rigid wall A and subjected to the moment transferred from Feature 1. The yield calcualtion was a minimum required thickness of 13.5 mm, while the deflection calculation had a minimum thickness of approximately 14.45 mm. Since the deflection requirement controlled the design, so i can only choose a h value that is highher than both of them.  I selected a 15 mm thickness for Feature 2 so that both the yield and 0.30 mm deflection requirements were satisfied.
 
+## ISOMETRIC VIEW 
 
-
-
+w
 ## Decide
 
 
