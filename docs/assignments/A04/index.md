@@ -27,7 +27,17 @@ Feature 2 was modeled as a cantilever beam fixed to rigid wall A and subjected t
 ## ISOMETRIC VIEW 
 ![A3](A_8.png)
 
-## Decide
+
+## CAD DRAWING
+
+
+###
+![A3](A_5.png)
+
+![A3](A_6.png)
+
+![A3](A_7.png)
+
 
 
 ## Communicate
