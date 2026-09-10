@@ -25,8 +25,8 @@ FOr this i chose a L1 and L2 of 40 mm. The yield required a minimum thickness of
 Feature 2 was modeled as a cantilever beam fixed to rigid wall A and subjected to the moment transferred from Feature 1. The yield calcualtion was a minimum required thickness of 13.5 mm, while the deflection calculation had a minimum thickness of approximately 14.45 mm. Since the deflection requirement controlled the design, so i can only choose a h value that is highher than both of them.  I selected a 15 mm thickness for Feature 2 so that both the yield and 0.30 mm deflection requirements were satisfied.
 
 ## ISOMETRIC VIEW 
+![A3](A_8.png)
 
-w
 ## Decide
 
 
