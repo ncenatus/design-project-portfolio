@@ -71,12 +71,19 @@ Once Feature 1 was done, I pulled the motor specs from Appendix A to figure out 
 
 I drew the circles on the top face of Feature 1 and then used an extruded cut to clear out the material. This gave me the room I needed for the motor and shaft while making sure everything stayed perfectly centered on the mounting surface.
 
+### Step 5 – Creating the Wall Bolt Holes
 
 ![A3](A_12.png)
 
 ![A3](A_13.png)
 
+Since the assignment called for bolt clearance holes, I went with a 3.4 mm diameter for the wall mounts. 
+
+I started by placing one 3.4 mm hole on the vertical wall and set it 7.5 mm away from the edges. Once that was locked in, I used the pattern tools in Creo to generate the rest of the holes rather than drawing each one individually. With the wall being 40 mm wide and 30 mm high, and using that 7.5 mm offset from the edges, the pattern ended up with about 25 mm horizontal and 15 mm vertical spacing between the centers.
+
 ![A3](A_14.png)
+
+
 
 ![A3](A_15.png)
 
