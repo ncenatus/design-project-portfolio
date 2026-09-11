@@ -33,9 +33,11 @@ For the main specs, Feature 1 ended up at 40 mm long and 18.5 mm thick. Feature 
 ## CAD DRAWING
 
 
-###
+### Step 1 – Creating Parametric Dimensions
+
 ![A3](A_5.png). 
 The first thing i did was use parametric modeling techniques to design the CAD file. i use 
+
 
 ![A3](A_6.png)
 
