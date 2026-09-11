@@ -46,6 +46,11 @@ Going this route makes the whole model a lot more flexible. If I need to change 
 
 ![A3](A_7.png)
 
+I first created the horizontal motor-support section. I sketched the rectangular profile for Feature 1 and used the Extrude command to create the solid geometry.
+
+The calculated minimum thickness based on deflection was 17.50 mm, but I used 18.5 mm
+
+for the extrusion thickness. This ensured that my CAD geometry remained above the analytical minimum.
 
 
 ![A3](A_9.png)
