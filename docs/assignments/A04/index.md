@@ -26,7 +26,9 @@ Feature 2 was modeled as a cantilever beam fixed to rigid wall A and subjected t
 
 ## ISOMETRIC VIEW 
 ![A3](A_8.png)
+I started out by drawing an isometric sketch of the motor mount before I even touched the CAD software. This really helped me figure out the connection between Feature 1 and Feature 2, not to mention finding the right spots for the motor and wall mounting holes. I made sure to pull in the dimensions from MY calculations, so the sketch worked as a solid roadmap once I got into the solid works model.
 
+For the main specs, Feature 1 ended up at 40 mm long and 18.5 mm thick. Feature 2 had a height of 30 mm and a thickness of 15 mm, with the whole thing coming in at a width of 40 mm.
 
 ## CAD DRAWING
 
@@ -59,5 +61,6 @@ The first thing i did was use parametric modeling techniques to design the CAD f
 
 ![A3](A_17.png)
 
+To keep the mount stable without making the whole thing bulky, I decided to add triangular gussets between the motor-support and wall-support plates. By reinforcing the fixed corner where the bending moment is strongest, these gussets really stiffen up the assembly. It’s a great way to cut down on the deflection for Feature 1 without needing to increase the thickness of the entire mount.
 ## Communicate
 
