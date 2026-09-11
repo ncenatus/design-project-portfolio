@@ -32,7 +32,8 @@ Feature 2 was modeled as a cantilever beam fixed to rigid wall A and subjected t
 
 
 ###
-![A3](A_5.png)
+![A3](A_5.png). 
+The first thing i did was use parametric modeling techniques to design the CAD file. i use 
 
 ![A3](A_6.png)
 
