@@ -36,8 +36,11 @@ For the main specs, Feature 1 ended up at 40 mm long and 18.5 mm thick. Feature 
 ### Step 1 – Creating Parametric Dimensions
 
 ![A3](A_5.png). 
-The first thing i did was use parametric modeling techniques to design the CAD file. i use 
+When I started the solidworks model, I decided to set up parameters for all the main dimensions rather than just typing them in one by one. I set these up for things like the total width, the lengths and thicknesses for both Feature 1 and Feature 2, plus the shaft clearance and bolt-hole diameters. 
 
+Going this route makes the whole model a lot more flexible. If I need to change something, I just update the parameter and the geometry follows suit. Plus, the assignment actually called for parametric modeling wherever it made sense, so this kept me on track with those requirements.
+
+### Step 2 – Creating Feature 1
 
 ![A3](A_6.png)
 
