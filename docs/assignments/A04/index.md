@@ -38,7 +38,23 @@ Feature 2 was modeled as a cantilever beam fixed to rigid wall A and subjected t
 
 ![A3](A_7.png)
 
+![A3](A_8.png)
 
+![A3](A_9.png)
+
+![A3](A_10.png)
+
+![A3](A_11.png)
+
+![A3](A_12.png)
+
+![A3](A_13.png)
+
+![A3](A_14.png)
+
+![A3](A_15.png)
+
+![A3](A_16.png)
 
 ## Communicate
 
