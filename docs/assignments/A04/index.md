@@ -64,14 +64,12 @@ The math for the deflection suggested I needed about 14.45 mm, so I ended up goi
 
 ![A3](A_11.png)
 
+
+![A3](A_10.png)
+
 Once Feature 1 was done, I pulled the motor specs from Appendix A to figure out exactly where the shaft and mounting holes needed to go. The motor has this 22 mm locating feature on the front, so I worked right off the drawing instead of just guessing the size or placement of the opening.
 
 I drew the circles on the top face of Feature 1 and then used an extruded cut to clear out the material. This gave me the room I needed for the motor and shaft while making sure everything stayed perfectly centered on the mounting surface.
-
-
-
-
-![A3](A_10.png)
 
 
 ![A3](A_12.png)
