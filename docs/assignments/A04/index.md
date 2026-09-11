@@ -55,7 +55,9 @@ The first thing i did was use parametric modeling techniques to design the CAD f
 
 ![A3](A_15.png)
 
-![A3](A_16.png)
+### Design features on the motor mount to minimize deflection.
+
+
 
 ## Communicate
 
