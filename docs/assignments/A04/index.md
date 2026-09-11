@@ -81,7 +81,7 @@ Since the assignment called for bolt clearance holes, I went with a 3.4 mm diame
 
 I started by placing one 3.4 mm hole on the vertical wall and set it 7.5 mm away from the edges. Once that was locked in, I used the pattern tools in Creo to generate the rest of the holes rather than drawing each one individually. With the wall being 40 mm wide and 30 mm high, and using that 7.5 mm offset from the edges, the pattern ended up with about 25 mm horizontal and 15 mm vertical spacing between the centers.
 
-![A3](A_14.png)
+
 
 
 
