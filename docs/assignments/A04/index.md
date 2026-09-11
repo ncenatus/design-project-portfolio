@@ -106,3 +106,7 @@ I actually got a bit stuck here at first, wondering why the horizontal spacing w
 I ended up making one final adjusment to my part. To keep the mount stable without making the whole thing bulky, I decided to add triangular gussets between the motor-support and wall-support plates. By reinforcing the fixed corner where the bending moment is strongest, these gussets really stiffen up the assembly. It’s a great way to cut down on the deflection for Feature 1 without needing to increase the thickness of the entire mount.
 
 
+[Download Motor Mount Creo CAD File (.zip)](files/Motor_Mount_CAD.zip)
+
+
+
