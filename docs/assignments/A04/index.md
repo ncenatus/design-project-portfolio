@@ -39,7 +39,7 @@ The first thing i did was use parametric modeling techniques to design the CAD f
 
 ![A3](A_7.png)
 
-![A3](A_8.png)
+
 
 ![A3](A_9.png)
 
