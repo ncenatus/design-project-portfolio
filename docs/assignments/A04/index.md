@@ -50,14 +50,24 @@ The calculated minimum thickness based on deflection was 17.50 mm, but I used 18
 for the extrusion thickness. This ensured that my CAD geometry remained above the analytical minimum.
 
 
+### Step 2 – Creating Feature 2
 ![A3](A_7.png)
 
+After that, I moved on to the vertical wall-mounting section. I drew the sketch for Feature 2 so it was perpendicular to Feature 1, then extruded it out to match the full width of the mount.
+
+The math for the deflection suggested I needed about 14.45 mm, so I ended up going with a final thickness of 15 mm. I also stuck with the 30 mm height I had picked out earlier. In the end, it turned into one solid L-shaped part instead of a bunch of separate pieces.
 
 
+### Step 3 – Creating the Motor Clearance
 
 ![A3](A_9.png)
 
 ![A3](A_10.png)
+
+Once Feature 1 was done, I pulled the motor specs from Appendix A to figure out exactly where the shaft and mounting holes needed to go. The motor has this 22 mm locating feature on the front, so I worked right off the drawing instead of just guessing the size or placement of the opening.
+
+I drew the circles on the top face of Feature 1 and then used an extruded cut to clear out the material. This gave me the room I needed for the motor and shaft while making sure everything stayed perfectly centered on the mounting surface.
+
 
 ![A3](A_11.png)
 
