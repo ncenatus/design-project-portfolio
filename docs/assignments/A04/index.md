@@ -105,8 +105,17 @@ I actually got a bit stuck here at first, wondering why the horizontal spacing w
 
 I ended up making one final adjusment to my part. To keep the mount stable without making the whole thing bulky, I decided to add triangular gussets between the motor-support and wall-support plates. By reinforcing the fixed corner where the bending moment is strongest, these gussets really stiffen up the assembly. It’s a great way to cut down on the deflection for Feature 1 without needing to increase the thickness of the entire mount.
 
-## CAD FILE DOWNLOAD
+## lesson learned
+During this project, I learned how the calculations we do in class can actually be used to design a real part. Instead of just picking dimensions for the motor mount, I used bending stress and deflection equations to help decide how large the different features needed to be. This helped me better understand how the size, shape, and material of a part can affect how strong and stiff it is.
 
+I also got more experience using Creo and creating a parametric model. I learned how to set up important dimensions so I could easily make changes to the design if needed. I also practiced creating features such as mounting holes, patterned holes, the shaft opening, and the parts of the mount that connect to the wall.
+
+Another thing I learned was how small design changes can make a big difference in reducing deflection. Adding ribs or gussets can make the motor mount stiffer without having to make the entire part much thicker. This showed me that a better design is not always about using more material, but about using the material in the right places.
+
+## time spent 
+9 hours
+
+## CAD download
 [Download Motor Mount Creo CAD File (.zip)](CAD_FILE.zip)
 
 
