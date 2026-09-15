@@ -28,6 +28,13 @@ Feature K is designed with a solid circular cross section. The moment of inertia
 ![A3](A_3.png)
 
 
+### Feature B
+
+![A3](A_4.png)
+
+![A3](A_5.png)
+
+
 ## Decide
 
 
