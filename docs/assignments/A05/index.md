@@ -31,9 +31,20 @@ Feature K is designed with a solid circular cross section. The moment of inertia
 ### Feature B
 
 ![A3](A_4.png)
+For Feature B, I used the reaction force calculated from Feature A as the applied load. Since Feature A is supported symmetrically, the total 1200 lbf strap load is divided equally between the two supports. This gives an applied load of 600 lbf on each Feature B.
+
+So here's what went down with Feature B—we treated it like an axially loaded member. The force coming from Feature A pushes down on Feature B, and the bracket's other parts push back up with equal force. We neglect direct shear failure (like the assignment said) and didn't worry about stress concentrations at the joints for the initial sizing. Pretty straightforward.
+
+We went with a safety factor of 4 to keep things nice and safe, making sure Feature B stays below the yield strength of Aluminum 6061-T6.
+
+I pulled Feature B out from the rest of the bracket setup to draw up the free-body diagram. So here's what's going on: Feature A is pushing down on Feature B with a force of 600 lbf at its bottom end. Meanwhile, the upper part of the bracket is pushing back up with a reaction force to balance things out.
 
 ![A3](A_5.png)
-
+Since Feature B acts like an axially loaded member, I went with the standard normal stress formula: σ=P/A. 
+To find the allowable stress, you take the material's yield strength and divide it by your safety factor:
+σallow​=Sy/FS
+When you're looking for the smallest cross-sectional area that'll work, I set the normal stress equal to the allowable stress and solve for the minimum area​. which comes out to be 0.0686 in^2​. 
+Since Feature B has a rectangular cross section: A=wt, the selected width and thickness must satisfy 0.0686 in^2. Using that logic i found out that the min thickness is 0.137 in
 
 ## Decide
 
