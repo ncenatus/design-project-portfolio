@@ -84,6 +84,10 @@ Then for the Minimum Height of Feature C Using the rectangular section modulus e
 
 ![A3](B_11.png)
 
+![A3](B_12.png)
+
+![A3](B_13.png)
+
 
 ## Decide
 
