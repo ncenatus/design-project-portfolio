@@ -63,8 +63,13 @@ FOr the algebraic solution, I used moment equilibrium about the left side of Fea
 
 FOr the Numerical Bending Moment i use PC​=600 lbf, LC​=2.4964 in, to solve for the Mmax the maximum bendding moment. Next, I calculated the minimum required section modulus as 0.1712 in , this means Feature C needs a section modulus of at least: 0.1712 in. 
 Then for the Minimum Height of Feature C Using the rectangular section modulus equation Z=Wh^2/6, and Using the width adopted in my calculation  I solved for the minimum height of 0.6415in. 
-3
-	​
+
+
+##  Stifness Analysis
+
+
+![A3](B_3.png)
+
 
 
 
