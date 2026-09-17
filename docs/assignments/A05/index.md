@@ -48,10 +48,24 @@ Since Feature B has a rectangular cross section: A=wt, the selected width and th
 
 ### Feature c
 ![A3](B_1.png)
+For Feature C the load came from the previous part so the lower section could handle the bending. It needed to keep the safety factor at 4 under that 600 lbf. The numbers used were the load itself, the factor of safety, and the yield strength at 35000 psi. The bracket material was Aluminum 6061 T6. For the analysis, I used: P_C=600 lbf, FS=4, S_y=35,000psi. The material selected for the bracket was Aluminum 6061-T6. The length of Feature C was determined from the dimensions of the rigid T-beam. The main values I needed to determine were the minimum section modulus and the minimum height of Feature C. 
+
+For the assumption of this analysis, it is assumed that the load from Feature B is transferred to the right of Feature C and forms a moment due to the transfer of load. It is also assumed that the left end of Feature C is the resisting connection that offers both vertical reaction and moment reaction.
+Another assumption made for this analysis is that direct shear failure can be ignored, as per the assignment. Stress concentration due to corners and connections is ignored initially for the calculation of strength, and the cross-sectional shape of Feature C is considered rectangular.
+
+For the FBD Feature C was separated from the remaining bracket structure. There is a load of 600 lbf applied vertically to the right of the feature. To the left of the feature, there is a reaction force R_c and a moment M_C.
 
 ![A3](B_2.png)
+FOr the algebraic solution, I used moment equilibrium about the left side of Feature C: ∑Mleft​=0, to get the largest bending moment occurs at the resisting end as MC​=PC​LC. To determine the required section size, I used the bending stress equation σ=M/Z, the allowable stress σallow​=Sy/FS and setting them equal to solve for Zmin. For the rectangular cross section, I used: Z=(Wc*h^2)/6 as the section modulus to solve for the hmin​. ​​​​​
+
 
 ![A3](B_3.png)
+
+FOr the Numerical Bending Moment i use PC​=600 lbf, LC​=2.4964 in, to solve for the Mmax the maximum bendding moment. Next, I calculated the minimum required section modulus as 0.1712 in , this means Feature C needs a section modulus of at least: 0.1712 in. 
+Then for the Minimum Height of Feature C Using the rectangular section modulus equation Z=Wh^2/6, and Using the width adopted in my calculation  I solved for the minimum height of 0.6415in. 
+3
+	​
+
 
 
 ## Decide
