@@ -47,7 +47,11 @@ When you're looking for the smallest cross-sectional area that'll work, I set th
 Since Feature B has a rectangular cross section: A=wt, the selected width and thickness must satisfy 0.0686 in^2. Using that logic i found out that the min thickness is 0.137 in
 
 ### Feature c
+![A3](B_1.png)
 
+![A3](B_2.png)
+
+![A3](B_3.png)
 
 
 ## Decide
