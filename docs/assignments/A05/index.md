@@ -102,9 +102,11 @@ I treated Feature C as a cantilever beam. The left side of Feature C was treated
 The load transferred from Feature B acts downward on the right side of Feature C. The left side provides an upward force and a moment.
 
 ![A3](B_13.png)
-572in
+
 For a cantilever beam with a point load at the free end, I used the δmax​ equation. 
 Since the maximum allowable deflection is 0.005 in, then  I set:  δC=δallow and rearranged the equation to solve for the minimum required moment of inertia. Then i subtituted in the known values and get Imin= 0.06223 in^4. To Find the Minimum Height since Feature C has a rectangular cross section, so I use momnet of inertia and then I rearranged the equation to solve for the minimum height of 0.572 in
+
+
 ![A3](B_8.png)
 
 
