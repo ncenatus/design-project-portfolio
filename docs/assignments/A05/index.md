@@ -69,10 +69,23 @@ Then for the Minimum Height of Feature C Using the rectangular section modulus e
 
 
 ![A3](B_4.png)
+Regarding Feature A, I calculated the rigidity of the cylindrical support structure of the strap to ensure that it would not deflect by more than the maximum allowable deflection which is equal to \(0.005\) in. There is loading due to the polyester strap on either side of Feature A. 
+The force applied by each side of the strap is: F=600 lbf. Since the strap acts on both sides W=2(600). The material used is Aluminum 6061-T6, with an elastic modulus of approximately: E=10,000,000 psi.
 
+Modeling Feature A, I have taken it to be a simply supported cylindrical beam. The load by the polyester strap is taken as uniformly distributed load along the beam. Since the loading and geometry of the structure are symmetrical about its axis, it is assumed that the two supports will have the same reaction force.
+
+Other assumptions include linear elastic behavior of the material, constant cross-section, applicability of small deflection beam theory, and neglecting shear deflection effect.
+
+	
 ![A3](B_5.png)
 
+For the deflection analysis of Feature A, I modeled the cylindrical member as a simply supported beam with a uniformly distributed load from the polyester strap. Since the maximum allowable deflection is 0.005 in, I used the simply supported beam deflection equation and and rearranged it to solve for the minimum required moment of inertia. To solve numeric02lly, the values for the load W=1200 lbf, length LA=4.00 in, modulus of elasticity E=10,000,000 psi, and deflection of 0.005 in were used in the equation, which resulted in a minimum required moment of inertia of 0.2in^4. After finding the required moment of inertia, I used the moment-of-inertia equation for a solid circular cross section, and rearranged it to solve for the minimum diamete  and Substituting I=.2 gave dmin as 0.799
 ![A3](B_6.png)
+
+Since the force transferred from Feature A acts mostly along the feature's length, I treated Feature B as an axially loaded member for this analysis. I made the assumption that the cross-sectional area stays constant along the length and that the load operates through the cross section's center.
+
+Additionally, I assumed that shear deformation could be disregarded, the force was static, and Aluminum 6061-T6 behaved linearly elastically. A maximum of 0.005 inches of axial distortion was permitted.
+When Feature B is isolated from the rest of the bracket, Feature A applies a downward load of 600 lbf at the lower end. The upper portion of the bracket provides an equal reaction force in the opposite direction.
 
 ![A3](B_7.png)
 
