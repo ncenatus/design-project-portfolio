@@ -129,6 +129,13 @@ Since Feature D has a rectangular cross section A=wt. I rearranged the equation 
 
 ![A3](B_11.png)
 
+I performed a stiffness analysis for Feature E to make sure the upper horizontal member would not deflect more than the maximum allowable value of 0.005 in. The reaction from Feature D becomes the applied load on Feature E. Based on the load direction established from Feature D, the applied force \(P_E\) acts upward on Feature E. Feature E was modeled as a cantilever beam under bending.
+
+In this analysis, Feature E was treated as a cantilever beam with a rectangular cross section. At one end, the 600 lbf force from Feature D was applied, and the opposite end provided the reaction force and moment.
+
+It was assumed that the loading was static, the cross section was constant, Aluminum 6061-T6 behaved linearly elastically, and small-deflection beam theory applied. As required, shear deflection was neglected.
+
+For the FBD, since Feature D applies an upward force to Feature E, the applied load is P_E = 600 lbf.
 	​
 
 
