@@ -94,11 +94,20 @@ After finding the required cross-sectional area, I used the rectangular area equ
 
 I selected the width of Feature B as w=0.50 in and solve for tmin, resulting in tmin=0.0048 in
 	​
+![A3](B_12.png)
+Feature C's stiffness is crucial. I ran an analysis to ensure the lower member doesn't deflect over 0.005 in. The 600 lbf force from Feature B is the load on Feature C. It acts perpendicular, so I treated Feature C as a cantilever beam with bending
 
+I treated Feature C as a cantilever beam. The left side of Feature C was treated as the resisting connection, and the 600 lbf load acts downward on the right side. I assumed the load is static, the cross section stays constant, and Aluminum 6061-T6 behaves elastically. I also neglected shear deformation; I used small-deflection beam theory.
 
+The load transferred from Feature B acts downward on the right side of Feature C. The left side provides an upward force and a moment.
+
+![A3](B_13.png)
+572in
+For a cantilever beam with a point load at the free end, I used the δmax​ equation. 
+Since the maximum allowable deflection is 0.005 in, then  I set:  δC=δallow and rearranged the equation to solve for the minimum required moment of inertia. Then i subtituted in the known values and get Imin= 0.06223 in^4. To Find the Minimum Height since Feature C has a rectangular cross section, so I use momnet of inertia and then I rearranged the equation to solve for the minimum height of 0.572 in
 ![A3](B_8.png)
 
-Feature C's stiffness is crucial. I ran an analysis to ensure the lower member doesn't deflect over \(0.005\) in. The 600 lbf force from Feature B is the load on Feature C. It acts perpendicular, so I treated Feature C as a cantilever beam with bending.
+
 
  
 ![A3](B_9.png)
@@ -106,10 +115,10 @@ Feature C's stiffness is crucial. I ran an analysis to ensure the lower member d
 ![A3](B_10.png)
 
 ![A3](B_11.png)
+Since the maximum allowable deflection is \(0.005\) in, I set: δC=δallow and rearranged the equation to solve for the minimum required moment of inertia. Feature C has a rectangular cross section, so I used the moment of inertia of a rectangular cross section eqaution  and I rearranged the equation to solve for the minimum height. Hmin came out to be 0.572 in
+	​
 
-![A3](B_12.png)
 
-![A3](B_13.png)
 
 
 ## Decide
