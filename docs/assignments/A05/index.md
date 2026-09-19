@@ -137,7 +137,7 @@ It was assumed that the loading was static, the cross section was constant, Alum
 
 For the FBD, since Feature D applies an upward force to Feature E, the applied load is P_E = 600 lbf.
 	​
-
+![A3](B_13.png)
 
 
 
