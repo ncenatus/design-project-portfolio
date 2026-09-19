@@ -81,16 +81,26 @@ Other assumptions include linear elastic behavior of the material, constant cros
 
 For the deflection analysis of Feature A, I modeled the cylindrical member as a simply supported beam with a uniformly distributed load from the polyester strap. Since the maximum allowable deflection is 0.005 in, I used the simply supported beam deflection equation and and rearranged it to solve for the minimum required moment of inertia. To solve numeric02lly, the values for the load W=1200 lbf, length LA=4.00 in, modulus of elasticity E=10,000,000 psi, and deflection of 0.005 in were used in the equation, which resulted in a minimum required moment of inertia of 0.2in^4. After finding the required moment of inertia, I used the moment-of-inertia equation for a solid circular cross section, and rearranged it to solve for the minimum diamete  and Substituting I=.2 gave dmin as 0.799
 ![A3](B_6.png)
-
+0048
 Since the force transferred from Feature A acts mostly along the feature's length, I treated Feature B as an axially loaded member for this analysis. I made the assumption that the cross-sectional area stays constant along the length and that the load operates through the cross section's center.
 
 Additionally, I assumed that shear deformation could be disregarded, the force was static, and Aluminum 6061-T6 behaved linearly elastically. A maximum of 0.005 inches of axial distortion was permitted.
 When Feature B is isolated from the rest of the bracket, Feature A applies a downward load of 600 lbf at the lower end. The upper portion of the bracket provides an equal reaction force in the opposite direction.
 
 ![A3](B_7.png)
+For an axially loaded member, I used the axial deformation equation δ=PL/AE, Since the maximum allowable deformation is \(0.005\) in, I set δB=δallow, and rearranged the equation to solve for the minimum required cross-sectional area. For the numerical solution, I substituted the applied load (P_B=600 lbf, selected length L_B=2.00 in, elastic modulus E=10,000,000 psi, and allowable deformation5in δallow of 0.00  in. 
+
+After finding the required cross-sectional area, I used the rectangular area equation A=wt
+
+I selected the width of Feature B as w=0.50 in and solve for tmin, resulting in tmin=0.0048 in
+	​
+
 
 ![A3](B_8.png)
 
+Feature C's stiffness is crucial. I ran an analysis to ensure the lower member doesn't deflect over \(0.005\) in. The 600 lbf force from Feature B is the load on Feature C. It acts perpendicular, so I treated Feature C as a cantilever beam with bending.
+
+ 
 ![A3](B_9.png)
 
 ![A3](B_10.png)
