@@ -67,7 +67,7 @@ Then for the Minimum Height of Feature C Using the rectangular section modulus e
 
 ##  Stifness Analysis
 
-
+###FEATURE A
 ![A3](B_4.png)
 Regarding Feature A, I calculated the rigidity of the cylindrical support structure of the strap to ensure that it would not deflect by more than the maximum allowable deflection which is equal to \(0.005\) in. There is loading due to the polyester strap on either side of Feature A. 
 The force applied by each side of the strap is: F=600 lbf. Since the strap acts on both sides W=2(600). The material used is Aluminum 6061-T6, with an elastic modulus of approximately: E=10,000,000 psi.
@@ -80,8 +80,10 @@ Other assumptions include linear elastic behavior of the material, constant cros
 ![A3](B_5.png)
 
 For the deflection analysis of Feature A, I modeled the cylindrical member as a simply supported beam with a uniformly distributed load from the polyester strap. Since the maximum allowable deflection is 0.005 in, I used the simply supported beam deflection equation and and rearranged it to solve for the minimum required moment of inertia. To solve numeric02lly, the values for the load W=1200 lbf, length LA=4.00 in, modulus of elasticity E=10,000,000 psi, and deflection of 0.005 in were used in the equation, which resulted in a minimum required moment of inertia of 0.2in^4. After finding the required moment of inertia, I used the moment-of-inertia equation for a solid circular cross section, and rearranged it to solve for the minimum diamete  and Substituting I=.2 gave dmin as 0.799
+
+###FEATURE B
 ![A3](B_6.png)
-0048
+
 Since the force transferred from Feature A acts mostly along the feature's length, I treated Feature B as an axially loaded member for this analysis. I made the assumption that the cross-sectional area stays constant along the length and that the load operates through the cross section's center.
 
 Additionally, I assumed that shear deformation could be disregarded, the force was static, and Aluminum 6061-T6 behaved linearly elastically. A maximum of 0.005 inches of axial distortion was permitted.
@@ -95,7 +97,7 @@ After finding the required cross-sectional area, I used the rectangular area equ
 I selected the width of Feature B as w=0.50 in and solve for tmin, resulting in tmin=0.0048 in
 	​
 
-
+###fEATURE C
 ![A3](B_12.png)
 Feature C's stiffness is crucial. I ran an analysis to ensure the lower member doesn't deflect over 0.005 in. The 600 lbf force from Feature B is the load on Feature C. It acts perpendicular, so I treated Feature C as a cantilever beam with bending
 
@@ -103,13 +105,14 @@ I treated Feature C as a cantilever beam. The left side of Feature C was treated
 
 The load transferred from Feature B acts downward on the right side of Feature C. The left side provides an upward force and a moment.
 
-![A3](B_13.png)
+![A3](B_14.png)
+
 
 For a cantilever beam with a point load at the free end, I used the δmax​ equation. 
 Since the maximum allowable deflection is 0.005 in, then  I set:  δC=δallow and rearranged the equation to solve for the minimum required moment of inertia. Then i subtituted in the known values and get Imin= 0.06223 in^4. To Find the Minimum Height since Feature C has a rectangular cross section, so I use momnet of inertia and then I rearranged the equation to solve for the minimum height of 0.572 in
 
 
-
+###FEATURE D
 ![A3](B_8.png)
 For Feature D, a stiffness analysis was performed to ensure the vertical member's deformation didn't exceed \(0.005\) in. The reaction force from Feature C is the applied load on Feature D. It mainly acts along Feature D's length; thus, I modeled it as an axially loaded rectangular member.
 
@@ -125,6 +128,7 @@ Since Feature D is axially loaded, I used the axial deformation equation, and se
 
 Since Feature D has a rectangular cross section A=wt. I rearranged the equation to solve for the minimum thickness and i subtitute in the value and got a tmin of 0.0045
 
+###FEATURE E
 ![A3](B_10.png)
 
 ![A3](B_11.png)
