@@ -121,6 +121,9 @@ For the FBD, the two forces act in opposite directions along the length of Featu
 
  
 ![A3](B_9.png)
+Since Feature D is axially loaded, I used the axial deformation equation, and set  δC=δallow. I then rearranged the equation to solve for the minimum required cross-sectional area. then i Substitute the known values to get Amin=0.01799 in^2. 
+
+Since Feature D has a rectangular cross section A=wt. I rearranged the equation to solve for the minimum thickness and i subtitute in the value and got a tmin of 0.0045
 
 ![A3](B_10.png)
 
