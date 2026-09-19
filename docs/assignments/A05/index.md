@@ -5,9 +5,12 @@
 
 ## Analyze
 ##  Stress Analysis
+
 ### Feature A
 
+
 ![A3](A_1.png)
+
 Feature K is to support the polyester strap that applies the horizontal load to the rigid T-beam. For this design I selected an applied force of 600 lbf, which meets the problem requirement of 500<F≤800 lbf. The strap is pulling on both sides of Feature K, so the total load on the feature is twice the force applied. The total load used in the analysis is thus W=2F=2(600)=1200 lbf
 
 The bracket was made of Aluminum 6061-T6 material. The analysis was performed with the yield strength of approximately 35,000 psi. The safety factor for the assignment is 4.
@@ -23,12 +26,9 @@ The free-body diagram for Feature K shows the cylindrical member supporting the 
 The maximum bending stress equation provided in the assignment is σmax​=2ZWL​ and The allowable stress is determined by dividing the yield strength by the safety factor is σallow​=SFSy​. For the design to satisfy the required safety factor, the maximum bending stress must not exceed the allowable stress so WL/2Z=Sy/Sf and Z. 
 Feature K is designed with a solid circular cross section. The moment of inertia for a solid circular member is I=πr4​/4. The section modulus is defined as Z=I/r, then I Substitute the moment of inertia equation to get r. 
 
-​
+​### Feature B
 
 ![A3](A_3.png)
-
-
-### Feature B
 
 ![A3](A_4.png)
 For Feature B, I used the reaction force calculated from Feature A as the applied load. Since Feature A is supported symmetrically, the total 1200 lbf strap load is divided equally between the two supports. This gives an applied load of 600 lbf on each Feature B.
@@ -47,6 +47,7 @@ When you're looking for the smallest cross-sectional area that'll work, I set th
 Since Feature B has a rectangular cross section: A=wt, the selected width and thickness must satisfy 0.0686 in^2. Using that logic i found out that the min thickness is 0.137 in
 
 ### Feature c
+
 ![A3](B_1.png)
 For Feature C the load came from the previous part so the lower section could handle the bending. It needed to keep the safety factor at 4 under that 600 lbf. The numbers used were the load itself, the factor of safety, and the yield strength at 35000 psi. The bracket material was Aluminum 6061 T6. For the analysis, I used: P_C=600 lbf, FS=4, S_y=35,000psi. The material selected for the bracket was Aluminum 6061-T6. The length of Feature C was determined from the dimensions of the rigid T-beam. The main values I needed to determine were the minimum section modulus and the minimum height of Feature C. 
 
