@@ -94,6 +94,8 @@ After finding the required cross-sectional area, I used the rectangular area equ
 
 I selected the width of Feature B as w=0.50 in and solve for tmin, resulting in tmin=0.0048 in
 	​
+
+
 ![A3](B_12.png)
 Feature C's stiffness is crucial. I ran an analysis to ensure the lower member doesn't deflect over 0.005 in. The 600 lbf force from Feature B is the load on Feature C. It acts perpendicular, so I treated Feature C as a cantilever beam with bending
 
