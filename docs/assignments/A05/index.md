@@ -109,9 +109,15 @@ For a cantilever beam with a point load at the free end, I used the δmax​ equ
 Since the maximum allowable deflection is 0.005 in, then  I set:  δC=δallow and rearranged the equation to solve for the minimum required moment of inertia. Then i subtituted in the known values and get Imin= 0.06223 in^4. To Find the Minimum Height since Feature C has a rectangular cross section, so I use momnet of inertia and then I rearranged the equation to solve for the minimum height of 0.572 in
 
 
+
 ![A3](B_8.png)
+For Feature D, a stiffness analysis was performed to ensure the vertical member's deformation didn't exceed \(0.005\) in. The reaction force from Feature C is the applied load on Feature D. It mainly acts along Feature D's length; thus, I modeled it as an axially loaded rectangular member.
 
+For this analysis, I treated Feature D as an axially loaded member, and the reaction from Feature C becomes the applied load on it. Feature D's opposite end provides an equal reaction force, essentially balancing the load from Feature C.
 
+I made a few assumptions about the load. It acts through the center of the cross section. That member has a constant rectangular cross section. Also, Aluminum 6061-T6 behaves linearly elastically. The loading is static, and there's a limit on the maximum allowable axial deformation, it's 0.005 in.
+
+For the FBD, the two forces act in opposite directions along the length of Feature D when it's isolated.
 
  
 ![A3](B_9.png)
@@ -119,7 +125,7 @@ Since the maximum allowable deflection is 0.005 in, then  I set:  δC=δallow an
 ![A3](B_10.png)
 
 ![A3](B_11.png)
-Since the maximum allowable deflection is \(0.005\) in, I set: δC=δallow and rearranged the equation to solve for the minimum required moment of inertia. Feature C has a rectangular cross section, so I used the moment of inertia of a rectangular cross section eqaution  and I rearranged the equation to solve for the minimum height. Hmin came out to be 0.572 in
+
 	​
 
 
