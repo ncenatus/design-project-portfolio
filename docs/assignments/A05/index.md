@@ -73,11 +73,11 @@ Then for the Minimum Height of Feature C Using the rectangular section modulus e
 
 ![A3](B_16.png)
 
-![A3](B_17.png
+
 
 
 ### FEATURE E 
-
+![A3](B_17.png)
 
 ##  Stifness Analysis
 
