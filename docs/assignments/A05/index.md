@@ -25,10 +25,13 @@ Feature K is modeled as a beam of constant solid circular cross section. The mat
 The free-body diagram for Feature K shows the cylindrical member supporting the load from the polyester strap. 
 The maximum bending stress equation provided in the assignment is σmax​=2ZWL​ and The allowable stress is determined by dividing the yield strength by the safety factor is σallow​=SFSy​. For the design to satisfy the required safety factor, the maximum bending stress must not exceed the allowable stress so WL/2Z=Sy/Sf and Z. 
 Feature K is designed with a solid circular cross section. The moment of inertia for a solid circular member is I=πr4​/4. The section modulus is defined as Z=I/r, then I Substitute the moment of inertia equation to get r. 
-
-​### Feature B
-
 ![A3](A_3.png)
+
+​
+### Feature B
+
+
+
 
 ![A3](A_4.png)
 For Feature B, I used the reaction force calculated from Feature A as the applied load. Since Feature A is supported symmetrically, the total 1200 lbf strap load is divided equally between the two supports. This gives an applied load of 600 lbf on each Feature B.
