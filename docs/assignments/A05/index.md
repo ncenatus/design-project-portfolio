@@ -79,6 +79,8 @@ Then for the Minimum Height of Feature C Using the rectangular section modulus e
 ### FEATURE E 
 ![A3](B_17.png)
 
+![A3](B_18.png)
+
 ##  Stifness Analysis
 
 ### FEATURE A
@@ -159,7 +161,9 @@ For the FBD, since Feature D applies an upward force to Feature E, the applied l
 
 
 
-## Decide
+
+## Multiview Sketches
+
 
 
 ## Communicate
