@@ -183,5 +183,18 @@ The sketches helped me see how the five features connect and how the load moves 
 
 # Lessons Learned
 ### Governing Failure Mode
+For Feature C, stiffness governed the final required dimension. From the stress analysis, the minimum required height was hC,stress​=0.64146 in, while the stiffness analysis required was hC,stiffness​=1.0721 in. The stiffness requirement was larger by 1.0721−0.64146=0.43064. Since Feature C needed a larger dimension to satisfy the deflection requirement, stiffness controlled the final design. 
 
+### Error propagation
 
+Error propagation was a concern in my design, particularly with the load transferred between features. The reaction force from Feature A was used as the applied load on Feature B, and this load was then carried through to Features C, D, and E. Because of this, if I had calculated the reaction from Feature A incorrectly, every feature after it would also have been sized using the wrong load.
+
+At each step, I used equilibrium to check the force transfer before moving on to the next feature. For example, I verified that the 1200 lbf total strap load on Feature A was split into two 600 lbf reactions. This helped prevent incorrect reaction forces from affecting the rest of the calculations.
+
+### Assumption sensitivity
+
+One important assumption I made was that the polyester strap load is distributed evenly across Feature A, so the 1200 lbf load is split into two 600 lbf reactions. I used those 600 lbf reactions as the loads for the later features.
+
+If the load isn't distributed evenly, one side of the bracket could carry over 600 lbf. That would increase the stress and deflection in Features B, C, D, and E. So, the minimum required thicknesses and heights calculated for those features would increase.
+
+The final dimensions of the bracket depend strongly on the assumed load distribution. If the real loading is more uneven than assumed, the bracket would need to be made larger or reinforced to maintain the required safety factor and deflection limit.
