@@ -1,9 +1,9 @@
 # A5 – [Topic]
 
-## Objective
+# Objective
 
 
-## Analyze
+# Analyze
 ##  Stress Analysis
 
 ### Feature A
@@ -162,7 +162,7 @@ For the FBD, since Feature D applies an upward force to Feature E, the applied l
 
 
 
-## Multiview Sketches
+# Multiview Sketches
 ### STRESS
 ![A3](B_19.png)
 
@@ -181,5 +181,7 @@ The sketches helped me see how the five features connect and how the load moves 
 
 
 
-## Communicate
+# Lessons Learned
+### Governing Failure Mode
+
 
