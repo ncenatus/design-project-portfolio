@@ -163,6 +163,20 @@ For the FBD, since Feature D applies an upward force to Feature E, the applied l
 
 
 ## Multiview Sketches
+![A3](B_19.png)
+
+I created two separate multiview sketches for Features A through E after completing the strength and stiffness calculations to show how the calculated dimensions affect the final bracket geometry. One sketch pretty shows the stress analysis dimensions, and the other shows the stiffness analysis dimensions.
+
+Each sketch includes a front view, right-side view, top/side view, and an isometric view. Orthographic views show important feature dimensions more clearly than isometric views alone. I also used the T-beam dimensions provided in the assignment to make sure the bracket geometry would fit around the rigid T-beam.
+
+The stress-analysis sketch uses the minimum dimensions from the strength calculations. These dimensions prevent yielding and maintain a safety factor of 4. The stress-based dimensions included the required diameter of Feature A and the minimum thicknesses or heights of Features B through E.
+
+
+![A3](B_20.png)
+
+Based on stiffness calculations, the second multiview sketch was created. I used dimensions that kept each feature's deflection below the maximum allowable value of 0.005 in. Since stiffness and stress calculations check different requirements, the two sketches have some different dimensions.
+
+The sketches helped me see how the five features connect and how the load moves from Feature A to the rigid T-beam. It was easier to identify which dimensions are strength-controlled and which are stiffness-controlled.
 
 
 
