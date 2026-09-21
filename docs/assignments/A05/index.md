@@ -10,7 +10,7 @@ This design required selecting a material, applying a safety factor of 4, and ch
 
 ### Feature A
 
-
+<img src="A_1.png" width="700">
 ![A3](A_1.png)
 
 Feature K is to support the polyester strap that applies the horizontal load to the rigid T-beam. For this design I selected an applied force of 600 lbf, which meets the problem requirement of 500<F≤800 lbf. The strap is pulling on both sides of Feature K, so the total load on the feature is twice the force applied. The total load used in the analysis is thus W=2F=2(600)=1200 lbf
@@ -37,6 +37,7 @@ Feature K is designed with a solid circular cross section. The moment of inertia
 
 
 ![A3](A_4.png)
+
 For Feature B, I used the reaction force calculated from Feature A as the applied load. Since Feature A is supported symmetrically, the total 1200 lbf strap load is divided equally between the two supports. This gives an applied load of 600 lbf on each Feature B.
 
 So here's what went down with Feature B—we treated it like an axially loaded member. The force coming from Feature A pushes down on Feature B, and the bracket's other parts push back up with equal force. We neglect direct shear failure (like the assignment said) and didn't worry about stress concentrations at the joints for the initial sizing. Pretty straightforward.
