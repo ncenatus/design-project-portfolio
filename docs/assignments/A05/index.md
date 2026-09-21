@@ -70,14 +70,24 @@ Then for the Minimum Height of Feature C Using the rectangular section modulus e
 
 ### FEATURE D
 ![A3](B_15.png)
-
+For Feature D, I used the reaction force from Feature C as the applied load. The purpose of this analysis was to determine the minimum cross-sectional size needed so Feature D would not yield under the transferred load.
+For this analysis, I made the following assumptions: The reaction force from Feature C becomes the applied load on Feature D, Feature D has a constant rectangular cross section, Stress concentrations are neglected for the initial sizing calculation, The load is static, The load acts mainly along the vertical axis of Feature D, Aluminum 6061-T6 remains elastic until yielding.
+For the FBD I isolated Feature D from the rest of the bracket. The applied load \(P_D\) acts downward on the member while the connection at the opposite end provides an upward reaction R
+D
 ![A3](B_16.png)
+
+For an axially loaded member, I used the normal stress equation and the allowable stress that was calculated using the yield strength and the required safety factor and set them equal to each other to solve for minimum area and the minimum thickness. 
+FOr the numerical calcuations the minimum area came out to be 0.06857 in and the minimum thickness is .01714 in. 
 
 
 
 
 ### FEATURE E 
 ![A3](B_17.png)
+
+For Feature E, I used the reaction force transferred from Feature D as the applied load. Feature E is the final feature in the load path before the force reaches the rigid T-beam. Since the applied force acts perpendicular to the length of Feature E, I modeled this feature as a cantilever beam subjected to bending. 
+I assumed the reaction from Feature D becomes the applied load on Feature E for this analysis. Feature E was modeled as a rectangular cantilever beam, with a constant cross section. The load was treated as static; stress concentrations around the corners were neglected for the initial sizing calculation. Direct shear failure was neglected, as stated in the assignment.
+Feature E is subjected to an upward force from Feature D. At the opposite end of Feature E, there's a reaction force in the downward direction and a reaction moment.
 
 ![A3](B_18.png)
 
