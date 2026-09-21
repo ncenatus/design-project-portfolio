@@ -24,6 +24,7 @@ for the assumption It is assumed that feature K is not failing in direct shear a
 Feature K is modeled as a beam of constant solid circular cross section. The material is taken to be linearly elastic up to the yield point. The first sizing calculation ignores stress concentrations around the ends of the feature.
 
 ![A3](A_2.png)
+
 The free-body diagram for Feature K shows the cylindrical member supporting the load from the polyester strap. 
 The maximum bending stress equation provided in the assignment is σmax​=2ZWL​ and The allowable stress is determined by dividing the yield strength by the safety factor is σallow​=SFSy​. For the design to satisfy the required safety factor, the maximum bending stress must not exceed the allowable stress so WL/2Z=Sy/Sf and Z. 
 Feature K is designed with a solid circular cross section. The moment of inertia for a solid circular member is I=πr4​/4. The section modulus is defined as Z=I/r, then I Substitute the moment of inertia equation to get r. 
