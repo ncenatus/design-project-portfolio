@@ -1,7 +1,9 @@
 # A5 – [Topic]
 
 # Objective
+The objective of this assignment was to design a bracket that can safely support the load applied by a polyester strap while fitting around the given rigid T-beam geometry. The bracket was split into five features, A through E, and each was analyzed using free-body diagrams, stress and stiffness calculations. Reaction forces from one feature were carried into the next feature so the load path could be followed through the entire bracket.
 
+This design required selecting a material, applying a safety factor of 4, and checking for yielding and deflection. Final dimensions were chosen by comparing minimum sizes from stress and stiffness analyses, and using the larger value. These dimensions were used to create multiview sketches and a final SolidWorks bracket model.
 
 # Analyze
 ##  Stress Analysis
