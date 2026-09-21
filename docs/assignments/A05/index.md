@@ -98,8 +98,8 @@ Feature E is subjected to an upward force from Feature D. At the opposite end of
 ##  Stifness Analysis
 
 ### FEATURE A
-<img src="C_1.png" width="700">
-![A3](B_4.png)
+<img src="B_4.png" width="700">
+
 Regarding Feature A, I calculated the rigidity of the cylindrical support structure of the strap to ensure that it would not deflect by more than the maximum allowable deflection which is equal to \(0.005\) in. There is loading due to the polyester strap on either side of Feature A. 
 The force applied by each side of the strap is: F=600 lbf. Since the strap acts on both sides W=2(600). The material used is Aluminum 6061-T6, with an elastic modulus of approximately: E=10,000,000 psi.
 
@@ -108,20 +108,20 @@ Modeling Feature A, I have taken it to be a simply supported cylindrical beam. T
 Other assumptions include linear elastic behavior of the material, constant cross-section, applicability of small deflection beam theory, and neglecting shear deflection effect.
 
 	
-![A3](B_5.png)
+
 <img src="B_5.png" width="700">
 
 For the deflection analysis of Feature A, I modeled the cylindrical member as a simply supported beam with a uniformly distributed load from the polyester strap. Since the maximum allowable deflection is 0.005 in, I used the simply supported beam deflection equation and and rearranged it to solve for the minimum required moment of inertia. To solve numeric02lly, the values for the load W=1200 lbf, length LA=4.00 in, modulus of elasticity E=10,000,000 psi, and deflection of 0.005 in were used in the equation, which resulted in a minimum required moment of inertia of 0.2in^4. After finding the required moment of inertia, I used the moment-of-inertia equation for a solid circular cross section, and rearranged it to solve for the minimum diamete  and Substituting I=.2 gave dmin as 0.799
 
 ### FEATURE B
-![A3](B_6.png)
+
 <img src="B_6.png" width="700">
 Since the force transferred from Feature A acts mostly along the feature's length, I treated Feature B as an axially loaded member for this analysis. I made the assumption that the cross-sectional area stays constant along the length and that the load operates through the cross section's center.
 
 Additionally, I assumed that shear deformation could be disregarded, the force was static, and Aluminum 6061-T6 behaved linearly elastically. A maximum of 0.005 inches of axial distortion was permitted.
 When Feature B is isolated from the rest of the bracket, Feature A applies a downward load of 600 lbf at the lower end. The upper portion of the bracket provides an equal reaction force in the opposite direction.
 
-![A3](B_7.png)
+
 <img src="B_7.png" width="700">
 
 For an axially loaded member, I used the axial deformation equation δ=PL/AE, Since the maximum allowable deformation is \(0.005\) in, I set δB=δallow, and rearranged the equation to solve for the minimum required cross-sectional area. For the numerical solution, I substituted the applied load (P_B=600 lbf, selected length L_B=2.00 in, elastic modulus E=10,000,000 psi, and allowable deformation5in δallow of 0.00  in. 
@@ -132,7 +132,7 @@ I selected the width of Feature B as w=0.50 in and solve for tmin, resulting in 
 	​
 
 ### FEATURE C
-![A3](B_12.png)
+
 <img src="B_12.png" width="700">
 
 Feature C's stiffness is crucial. I ran an analysis to ensure the lower member doesn't deflect over 0.005 in. The 600 lbf force from Feature B is the load on Feature C. It acts perpendicular, so I treated Feature C as a cantilever beam with bending
@@ -141,7 +141,7 @@ I treated Feature C as a cantilever beam. The left side of Feature C was treated
 
 The load transferred from Feature B acts downward on the right side of Feature C. The left side provides an upward force and a moment.
 
-![A3](B_14.png)
+
 <img src="B_14.png" width="700">
 
 
@@ -151,7 +151,7 @@ Since the maximum allowable deflection is 0.005 in, then  I set:  δC=δallow an
 
 
 ### FEATURE D
-![A3](B_8.png)
+
 <img src="B_8.png" width="700">
 
 For Feature D, a stiffness analysis was performed to ensure the vertical member's deformation didn't exceed \(0.005\) in. The reaction force from Feature C is the applied load on Feature D. It mainly acts along Feature D's length; thus, I modeled it as an axially loaded rectangular member.
@@ -163,7 +163,7 @@ I made a few assumptions about the load. It acts through the center of the cross
 For the FBD, the two forces act in opposite directions along the length of Feature D when it's isolated.
 
  
-![A3](B_9.png)
+
 <img src="B_9.png" width="700">
 
 Since Feature D is axially loaded, I used the axial deformation equation, and set  δC=δallow. I then rearranged the equation to solve for the minimum required cross-sectional area. then i Substitute the known values to get Amin=0.01799 in^2. 
@@ -171,11 +171,11 @@ Since Feature D is axially loaded, I used the axial deformation equation, and se
 Since Feature D has a rectangular cross section A=wt. I rearranged the equation to solve for the minimum thickness and i subtitute in the value and got a tmin of 0.0045
 
 ### FEATURE E
-![A3](B_10.png)
+
 <img src="B_10.png" width="700">
 
 
-![A3](B_11.png)
+
 <img src="B_11.png" width="700">
 
 
@@ -187,7 +187,7 @@ It was assumed that the loading was static, the cross section was constant, Alum
 
 For the FBD, since Feature D applies an upward force to Feature E, the applied load is P_E = 600 lbf.
 	​
-![A3](B_13.png)
+
 <img src="B_13.png" width="700">
 
 
@@ -196,7 +196,7 @@ For the FBD, since Feature D applies an upward force to Feature E, the applied l
 
 # Multiview Sketches
 ### STRESS
-![A3](B_19.png)
+
 <img src="B_19.png" width="700">
 
 
@@ -207,7 +207,7 @@ Each sketch includes a front view, right-side view, top/side view, and an isomet
 The stress-analysis sketch uses the minimum dimensions from the strength calculations. These dimensions prevent yielding and maintain a safety factor of 4. The stress-based dimensions included the required diameter of Feature A and the minimum thicknesses or heights of Features B through E.
 
 ### STIFFNESS
-![A3](B_20.png)
+
 <img src="B_20.png" width="700">
 
 
