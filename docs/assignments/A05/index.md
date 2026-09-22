@@ -23,8 +23,8 @@ for the assumption It is assumed that feature K is not failing in direct shear a
 
 Feature K is modeled as a beam of constant solid circular cross section. The material is taken to be linearly elastic up to the yield point. The first sizing calculation ignores stress concentrations around the ends of the feature.
 
-![A3](A_2.png)
 
+<img src="A_2.png" width="700">
 The free-body diagram for Feature K shows the cylindrical member supporting the load from the polyester strap. 
 The maximum bending stress equation provided in the assignment is σmax​=2ZWL​ and The allowable stress is determined by dividing the yield strength by the safety factor is σallow​=SFSy​. For the design to satisfy the required safety factor, the maximum bending stress must not exceed the allowable stress so WL/2Z=Sy/Sf and Z. 
 Feature K is designed with a solid circular cross section. The moment of inertia for a solid circular member is I=πr4​/4. The section modulus is defined as Z=I/r, then I Substitute the moment of inertia equation to get r. 
@@ -33,10 +33,7 @@ Feature K is designed with a solid circular cross section. The moment of inertia
 ​
 ### Feature B
 
-
-
-
-![A3](A_4.png)
+<img src="A_4.png" width="700">
 
 For Feature B, I used the reaction force calculated from Feature A as the applied load. Since Feature A is supported symmetrically, the total 1200 lbf strap load is divided equally between the two supports. This gives an applied load of 600 lbf on each Feature B.
 
@@ -46,7 +43,8 @@ We went with a safety factor of 4 to keep things nice and safe, making sure Feat
 
 I pulled Feature B out from the rest of the bracket setup to draw up the free-body diagram. So here's what's going on: Feature A is pushing down on Feature B with a force of 600 lbf at its bottom end. Meanwhile, the upper part of the bracket is pushing back up with a reaction force to balance things out.
 
-![A3](A_5.png)
+
+<img src="A_5.png" width="700">
 Since Feature B acts like an axially loaded member, I went with the standard normal stress formula: σ=P/A. 
 To find the allowable stress, you take the material's yield strength and divide it by your safety factor:
 σallow​=Sy/FS
@@ -55,7 +53,7 @@ Since Feature B has a rectangular cross section: A=wt, the selected width and th
 
 ### Feature c
 
-![A3](B_1.png)
+<img src="B_1.png" width="700">
 For Feature C the load came from the previous part so the lower section could handle the bending. It needed to keep the safety factor at 4 under that 600 lbf. The numbers used were the load itself, the factor of safety, and the yield strength at 35000 psi. The bracket material was Aluminum 6061 T6. For the analysis, I used: P_C=600 lbf, FS=4, S_y=35,000psi. The material selected for the bracket was Aluminum 6061-T6. The length of Feature C was determined from the dimensions of the rigid T-beam. The main values I needed to determine were the minimum section modulus and the minimum height of Feature C. 
 
 For the assumption of this analysis, it is assumed that the load from Feature B is transferred to the right of Feature C and forms a moment due to the transfer of load. It is also assumed that the left end of Feature C is the resisting connection that offers both vertical reaction and moment reaction.
@@ -63,22 +61,25 @@ Another assumption made for this analysis is that direct shear failure can be ig
 
 For the FBD Feature C was separated from the remaining bracket structure. There is a load of 600 lbf applied vertically to the right of the feature. To the left of the feature, there is a reaction force R_c and a moment M_C.
 
-![A3](B_2.png)
+
+<img src="B_2.png" width="700">
 FOr the algebraic solution, I used moment equilibrium about the left side of Feature C: ∑Mleft​=0, to get the largest bending moment occurs at the resisting end as MC​=PC​LC. To determine the required section size, I used the bending stress equation σ=M/Z, the allowable stress σallow​=Sy/FS and setting them equal to solve for Zmin. For the rectangular cross section, I used: Z=(Wc*h^2)/6 as the section modulus to solve for the hmin​. ​​​​​
 
 
-![A3](B_3.png)
 
+<img src="B_3.png" width="700">
 FOr the Numerical Bending Moment i use PC​=600 lbf, LC​=2.4964 in, to solve for the Mmax the maximum bendding moment. Next, I calculated the minimum required section modulus as 0.1712 in , this means Feature C needs a section modulus of at least: 0.1712 in. 
 Then for the Minimum Height of Feature C Using the rectangular section modulus equation Z=Wh^2/6, and Using the width adopted in my calculation  I solved for the minimum height of 0.6415in. 
 
 ### FEATURE D
-![A3](B_15.png)
+<img src="B_15.png" width="700">
+
 For Feature D, I used the reaction force from Feature C as the applied load. The purpose of this analysis was to determine the minimum cross-sectional size needed so Feature D would not yield under the transferred load.
 For this analysis, I made the following assumptions: The reaction force from Feature C becomes the applied load on Feature D, Feature D has a constant rectangular cross section, Stress concentrations are neglected for the initial sizing calculation, The load is static, The load acts mainly along the vertical axis of Feature D, Aluminum 6061-T6 remains elastic until yielding.
 For the FBD I isolated Feature D from the rest of the bracket. The applied load \(P_D\) acts downward on the member while the connection at the opposite end provides an upward reaction R
 D
-![A3](B_16.png)
+
+<img src="B_16.png" width="700">
 
 For an axially loaded member, I used the normal stress equation and the allowable stress that was calculated using the yield strength and the required safety factor and set them equal to each other to solve for minimum area and the minimum thickness. 
 FOr the numerical calcuations the minimum area came out to be 0.06857 in and the minimum thickness is .01714 in. 
@@ -87,14 +88,15 @@ FOr the numerical calcuations the minimum area came out to be 0.06857 in and the
 
 
 ### FEATURE E 
-![A3](B_17.png)
+
+<img src="B_17.png" width="700">
 
 For Feature E, I used the reaction force transferred from Feature D as the applied load. Feature E is the final feature in the load path before the force reaches the rigid T-beam. Since the applied force acts perpendicular to the length of Feature E, I modeled this feature as a cantilever beam subjected to bending. 
 I assumed the reaction from Feature D becomes the applied load on Feature E for this analysis. Feature E was modeled as a rectangular cantilever beam, with a constant cross section. The load was treated as static; stress concentrations around the corners were neglected for the initial sizing calculation. Direct shear failure was neglected, as stated in the assignment.
 Feature E is subjected to an upward force from Feature D. At the opposite end of Feature E, there's a reaction force in the downward direction and a reaction moment.
 
-![A3](B_18.png)
 
+<img src="B_18.png" width="700">
 ##  Stifness Analysis
 
 ### FEATURE A
