@@ -29,10 +29,18 @@ I added the required general tolerance information to the title block. Center ma
 ### Analytical equation used in the parametric model
  
 One engineering lesson I learned was how to connect an analytical design equation directly to a CAD dimension instead of treating the calculation and the model as separate steps. I used a bending-stress relationship to size one of the bracket features, and for a rectangular section, which can be rearranged to solve for the required height. 
+σ=M/Z, Z=bh^2/6, h=√(6M/bσ)
+The reason why these equation worked is because of the fact that it was the factor that kept that particular bracket at the appropriate height level. In SolidWorks, I defined the global variables for the various design values and then tied the height generated from them to the sketch dimension through the menu of Equations, Global Variables, and Dimensions. This allows me to drive the dimension in CAD through the mathematical formula rather than specifying a specific value.
+
+### Tight and loose tolerances
+
+I maintained a tighter tolerance on the 1.500 in mating dimension: 1.500 ± 0.005 in
+This component is one of those that constitute the sliding fit with the rigid T-beam, thus the need to maintain a tighter tolerance in this dimension. An opening that is too small would not allow the bracket to be slid onto the beam while excessive clearance would result into excessive motion.
+
+For an important dimension such as the overall size of 2.5 in, a looser tolerance would be appropriate. The above mentioned dimension does not control the fit with any of the other mating surfaces and therefore it does not affect the functioning of the bracket. Thus maintaining a tighter tolerance on this dimension would result into increased cost of manufacture and assembly.
 
 
-These formula determined the height of one of the bracket components. In SolidWorks, I created global variables for the major design parameters and then linked the height generated from the formula to the sketch dimension using the Equations, Global Variables, and Dimensions command. The advantage of doing this was that the CAD dimension would now be determined based on the formula rather than assigning it a specific value. Any change in the design parameter would lead to a change in the dimension and subsequently the rebuilding of connected components.
 
+## PART AND DARWING FILE 
 
-## Communicate
 
