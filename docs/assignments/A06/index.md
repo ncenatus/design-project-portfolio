@@ -1,7 +1,7 @@
 # A6 – [Topic]
 
 ## Objective
-###Parametric design
+### Parametric design
 <img src="C_1.png" width="500">
 Global Variables and Equations Created
 The first step was creating global variables in SolidWorks to use in defining the dimensions of the bracket. The global variables were responsible for controlling dimensions like the cylinder diameter, height of the bracket, wall thickness, among others. Creating global variables made the model parametric.
