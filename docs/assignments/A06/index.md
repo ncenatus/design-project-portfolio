@@ -12,8 +12,11 @@ The first step was creating global variables in SolidWorks to use in defining th
 The lower cylindrical part of the bracket was created first. Dimensions were set for the cylinder according to the design requirements. This part served as the lower support portion of the bracket.
 A main rectangular body was created above the cylinder. Dimensions for this body were specified according to the values obtained during engineering analysis and global variables.
 <img src="C_3.png" width="500">
+Proper constraints were specified to ensure that the body was correctly oriented with respect to the cylindrical base. Some relations and dimensions were applied to ensure that the geometry was correctly oriented.
 <img src="C_4.png" width="500">
 <img src="C_5.png" width="500">
+I sketched the opening necessary for the bracket to be slid over the rigid T-beam. The dimensions of the opening were found based on the sliding fit dimensions.
+
 <img src="c_6.png" width="500">
 <img src="C_7.png" width="500">
 <img src="C_8.png" width="500">
