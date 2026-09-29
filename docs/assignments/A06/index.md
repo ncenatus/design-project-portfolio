@@ -15,14 +15,28 @@ A main rectangular body was created above the cylinder. Dimensions for this body
 Proper constraints were specified to ensure that the body was correctly oriented with respect to the cylindrical base. Some relations and dimensions were applied to ensure that the geometry was correctly oriented.
 <img src="C_4.png" width="500">
 <img src="C_5.png" width="500">
-I sketched the opening necessary for the bracket to be slid over the rigid T-beam. The dimensions of the opening were found based on the sliding fit dimensions.
+I sketched the opening necessary for the bracket to be slid over the rigid T-beam. The dimensions of the opening were found based on the sliding fit dimensions. The dimensions for the opening were linked to the relevant global variables instead of being set directly. This way, the size of the opening will automatically change if the design dimensions change.
+I sketched the upper sections of the bracket around the opening. The wall thicknesses, heights, and distances between them were defined using the dimensions obtained during the analysis. The relations and dimensions of the sketch were used to completely describe the geometry, so that if a global variable was changed, all features would stay properly aligned. I reviewed the important dimensions, including cylinder dimensions, wall thicknesses, opening dimensions, and the overall bracket dimensions, to make sure they match the design values.
 
+## Engineering drawing
 <img src="c_6.png" width="500">
 <img src="C_7.png" width="500">
 <img src="C_8.png" width="500">
 
-
+A new drawing sheet of SolidWorks was created from the existing bracket model and the right size of the sheet was chosen. The drawings of the front, top and side views were included along with the isometric view of the bracket in order to ease the understanding of its geometry. I increased the scale of the drawing views in order to ensure effective usage of the sheet space while still providing enough space for the dimensions. I used the feature of Smart Dimension in order to provide attention to the most important manufacturing dimensions, which include overall dimensions, wall thickness, dimensions of openings and the diameter of the cylinder. I included engineering tolerances to those dimensions which affect the functionality of the bracket. For example, the dimension of 1.500 in was provided with a tolerance of: 1.500 ± 0.005 in
+I added the required general tolerance information to the title block:
+\[
+X.X \pm .02
+\]
+\[
+X.XX \pm .01
+\]
+\[
+X.XXX \pm .005
+\]
+Center marks have been added to the circular part and center lines have been added wherever necessary for proper depiction of the cylindrical part. “Multi-Feature Bracket Design,” the title of the drawing, has been added and all other relevant information about the drawing has been added to the title block. An inspection of the drawing has been done to make sure that the dimensions are readable, tolerances are depicted correctly, views are arranged properly, and enough information is present to make the bracket. After verifying dimensions, tolerances, and title block information, the multiview engineering drawing has been finalized.
 ## Decide
+
 
 
 ## Communicate
