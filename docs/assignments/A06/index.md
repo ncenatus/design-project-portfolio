@@ -28,10 +28,10 @@ I added the required general tolerance information to the title block. Center ma
 ## Reflections 
 ### Analytical equation used in the parametric model
  
-One engineering lesson I learned was how to connect an analytical design equation directly to a CAD dimension instead of treating the calculation and the model as separate steps. I used a bending-stress relationship to size one of the bracket features, and for a rectangular section, which can be rearranged to solve for the required height. \[
-\sigma=\frac{M}{Z}
-\]
-This formula determined the height of one of the bracket components. In SolidWorks, I created global variables for the major design parameters and then linked the height generated from the formula to the sketch dimension using the Equations, Global Variables, and Dimensions command. The advantage of doing this was that the CAD dimension would now be determined based on the formula rather than assigning it a specific value. Any change in the design parameter would lead to a change in the dimension and subsequently the rebuilding of connected components.
+One engineering lesson I learned was how to connect an analytical design equation directly to a CAD dimension instead of treating the calculation and the model as separate steps. I used a bending-stress relationship to size one of the bracket features, and for a rectangular section, which can be rearranged to solve for the required height. 
+
+
+These formula determined the height of one of the bracket components. In SolidWorks, I created global variables for the major design parameters and then linked the height generated from the formula to the sketch dimension using the Equations, Global Variables, and Dimensions command. The advantage of doing this was that the CAD dimension would now be determined based on the formula rather than assigning it a specific value. Any change in the design parameter would lead to a change in the dimension and subsequently the rebuilding of connected components.
 
 
 ## Communicate
